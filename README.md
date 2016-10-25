@@ -5,7 +5,7 @@ This extension actually find this terms ``var``, ``IBOutlet``, ``IBAction``, ``s
 
 Demo
 ----
-
+![image](https://raw.githubusercontent.com/richardfrk/EricsMark/master/Demo/EricsMarkDemo.gif)
 
 
 Installation
