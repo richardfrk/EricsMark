@@ -6,7 +6,7 @@ This extension actually find this terms ``var``, ``IBOutlet``, ``IBAction``, ``s
 Installation
 ------------
 
-1. Open ``EricsMark.xcodeproj``.
+1. Open ``EricsMark.xcodeproj``
 2. Enable target signing for both the Application and the Source Code Extension using your own developer ID.
 3. Product > Archive.
 4. Right click archive > Show in Finder.
