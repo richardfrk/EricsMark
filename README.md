@@ -1,5 +1,5 @@
-Eric's Mark
-===========================
+Eric's Mark (Formaly Eric's TOC)
+================================
 
 This extension actually find this terms ``var``, ``IBOutlet``, ``IBAction``, ``super``, ``private func``, and ``extension`` in your code and add ``//MARK:`` them.
 
