@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015269241DBFD4C300896D69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECAFC71DBFD14600C73E12 /* Cocoa.framework */; };
+		015269291DBFD4C300896D69 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015269281DBFD4C300896D69 /* SourceEditorExtension.swift */; };
+		0152692B1DBFD4C300896D69 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152692A1DBFD4C300896D69 /* SourceEditorCommand.swift */; };
+		0152692F1DBFD4C300896D69 /* Eric's Mark Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 015269231DBFD4C300896D69 /* Eric's Mark Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		01ECAFB51DBFD11300C73E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ECAFB41DBFD11300C73E12 /* AppDelegate.swift */; };
 		01ECAFB71DBFD11300C73E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01ECAFB61DBFD11300C73E12 /* Assets.xcassets */; };
 		01ECAFBA1DBFD11300C73E12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ECAFB81DBFD11300C73E12 /* MainMenu.xib */; };
-		01ECAFC81DBFD14600C73E12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECAFC71DBFD14600C73E12 /* Cocoa.framework */; };
-		01ECAFCD1DBFD14600C73E12 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ECAFCC1DBFD14600C73E12 /* SourceEditorExtension.swift */; };
-		01ECAFCF1DBFD14600C73E12 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ECAFCE1DBFD14600C73E12 /* SourceEditorCommand.swift */; };
-		01ECAFD31DBFD14600C73E12 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 01ECAFC51DBFD14600C73E12 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01ECAFD11DBFD14600C73E12 /* PBXContainerItemProxy */ = {
+		0152692D1DBFD4C300896D69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 01ECAFA91DBFD11300C73E12 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01ECAFC41DBFD14600C73E12;
-			remoteInfo = Extension;
+			remoteGlobalIDString = 015269221DBFD4C300896D69;
+			remoteInfo = "Eric's Mark Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,7 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				01ECAFD31DBFD14600C73E12 /* Extension.appex in Embed App Extensions */,
+				0152692F1DBFD4C300896D69 /* Eric's Mark Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,20 +41,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		015269231DBFD4C300896D69 /* Eric's Mark Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Eric's Mark Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		015269271DBFD4C300896D69 /* Eric_s_Mark_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eric_s_Mark_Extension.entitlements; sourceTree = "<group>"; };
+		015269281DBFD4C300896D69 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		0152692A1DBFD4C300896D69 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		0152692C1DBFD4C300896D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01ECAFB11DBFD11300C73E12 /* EricsMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EricsMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01ECAFB41DBFD11300C73E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01ECAFB61DBFD11300C73E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01ECAFB91DBFD11300C73E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		01ECAFBB1DBFD11300C73E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01ECAFC51DBFD14600C73E12 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		01ECAFC71DBFD14600C73E12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		01ECAFCB1DBFD14600C73E12 /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
-		01ECAFCC1DBFD14600C73E12 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
-		01ECAFCE1DBFD14600C73E12 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
-		01ECAFD01DBFD14600C73E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		015269201DBFD4C300896D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015269241DBFD4C300896D69 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01ECAFAE1DBFD11300C73E12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,22 +70,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01ECAFC21DBFD14600C73E12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01ECAFC81DBFD14600C73E12 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015269251DBFD4C300896D69 /* Eric's Mark Extension */ = {
+			isa = PBXGroup;
+			children = (
+				015269281DBFD4C300896D69 /* SourceEditorExtension.swift */,
+				0152692A1DBFD4C300896D69 /* SourceEditorCommand.swift */,
+				0152692C1DBFD4C300896D69 /* Info.plist */,
+				015269261DBFD4C300896D69 /* Supporting Files */,
+			);
+			path = "Eric's Mark Extension";
+			sourceTree = "<group>";
+		};
+		015269261DBFD4C300896D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015269271DBFD4C300896D69 /* Eric_s_Mark_Extension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		01ECAFA81DBFD11300C73E12 = {
 			isa = PBXGroup;
 			children = (
 				01ECAFB31DBFD11300C73E12 /* EricsMark */,
-				01ECAFC91DBFD14600C73E12 /* Extension */,
+				015269251DBFD4C300896D69 /* Eric's Mark Extension */,
 				01ECAFC61DBFD14600C73E12 /* Frameworks */,
 				01ECAFB21DBFD11300C73E12 /* Products */,
 			);
@@ -87,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				01ECAFB11DBFD11300C73E12 /* EricsMark.app */,
-				01ECAFC51DBFD14600C73E12 /* Extension.appex */,
+				015269231DBFD4C300896D69 /* Eric's Mark Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,28 +130,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		01ECAFC91DBFD14600C73E12 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				01ECAFCC1DBFD14600C73E12 /* SourceEditorExtension.swift */,
-				01ECAFCE1DBFD14600C73E12 /* SourceEditorCommand.swift */,
-				01ECAFD01DBFD14600C73E12 /* Info.plist */,
-				01ECAFCA1DBFD14600C73E12 /* Supporting Files */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		01ECAFCA1DBFD14600C73E12 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				01ECAFCB1DBFD14600C73E12 /* Extension.entitlements */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		015269221DBFD4C300896D69 /* Eric's Mark Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015269301DBFD4C300896D69 /* Build configuration list for PBXNativeTarget "Eric's Mark Extension" */;
+			buildPhases = (
+				0152691F1DBFD4C300896D69 /* Sources */,
+				015269201DBFD4C300896D69 /* Frameworks */,
+				015269211DBFD4C300896D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eric's Mark Extension";
+			productName = "Eric's Mark Extension";
+			productReference = 015269231DBFD4C300896D69 /* Eric's Mark Extension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 		01ECAFB01DBFD11300C73E12 /* EricsMark */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01ECAFBE1DBFD11300C73E12 /* Build configuration list for PBXNativeTarget "EricsMark" */;
@@ -145,29 +162,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				01ECAFD21DBFD14600C73E12 /* PBXTargetDependency */,
+				0152692E1DBFD4C300896D69 /* PBXTargetDependency */,
 			);
 			name = EricsMark;
 			productName = EricsMark;
 			productReference = 01ECAFB11DBFD11300C73E12 /* EricsMark.app */;
 			productType = "com.apple.product-type.application";
-		};
-		01ECAFC41DBFD14600C73E12 /* Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 01ECAFD41DBFD14600C73E12 /* Build configuration list for PBXNativeTarget "Extension" */;
-			buildPhases = (
-				01ECAFC11DBFD14600C73E12 /* Sources */,
-				01ECAFC21DBFD14600C73E12 /* Frameworks */,
-				01ECAFC31DBFD14600C73E12 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Extension;
-			productName = Extension;
-			productReference = 01ECAFC51DBFD14600C73E12 /* Extension.appex */;
-			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -179,12 +179,14 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Richard Frank";
 				TargetAttributes = {
-					01ECAFB01DBFD11300C73E12 = {
+					015269221DBFD4C300896D69 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FHWP9WUJMV;
 						ProvisioningStyle = Automatic;
 					};
-					01ECAFC41DBFD14600C73E12 = {
+					01ECAFB01DBFD11300C73E12 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FHWP9WUJMV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -203,12 +205,19 @@
 			projectRoot = "";
 			targets = (
 				01ECAFB01DBFD11300C73E12 /* EricsMark */,
-				01ECAFC41DBFD14600C73E12 /* Extension */,
+				015269221DBFD4C300896D69 /* Eric's Mark Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		015269211DBFD4C300896D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01ECAFAF1DBFD11300C73E12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,16 +227,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01ECAFC31DBFD14600C73E12 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0152691F1DBFD4C300896D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015269291DBFD4C300896D69 /* SourceEditorExtension.swift in Sources */,
+				0152692B1DBFD4C300896D69 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01ECAFAD1DBFD11300C73E12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,22 +247,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01ECAFC11DBFD14600C73E12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01ECAFCD1DBFD14600C73E12 /* SourceEditorExtension.swift in Sources */,
-				01ECAFCF1DBFD14600C73E12 /* SourceEditorCommand.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01ECAFD21DBFD14600C73E12 /* PBXTargetDependency */ = {
+		0152692E1DBFD4C300896D69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01ECAFC41DBFD14600C73E12 /* Extension */;
-			targetProxy = 01ECAFD11DBFD14600C73E12 /* PBXContainerItemProxy */;
+			target = 015269221DBFD4C300896D69 /* Eric's Mark Extension */;
+			targetProxy = 0152692D1DBFD4C300896D69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -267,6 +269,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		015269311DBFD4C300896D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Eric's Mark Extension/Eric_s_Mark_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FHWP9WUJMV;
+				INFOPLIST_FILE = "Eric's Mark Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richardfrk.EricsMark.Eric-s-Mark-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		015269321DBFD4C300896D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Eric's Mark Extension/Eric_s_Mark_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FHWP9WUJMV;
+				INFOPLIST_FILE = "Eric's Mark Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richardfrk.EricsMark.Eric-s-Mark-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		01ECAFBC1DBFD11300C73E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,7 +398,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FHWP9WUJMV;
 				INFOPLIST_FILE = EricsMark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.richardfrk.EricsMark;
@@ -376,7 +414,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FHWP9WUJMV;
 				INFOPLIST_FILE = EricsMark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.richardfrk.EricsMark;
@@ -385,39 +425,17 @@
 			};
 			name = Release;
 		};
-		01ECAFD51DBFD14600C73E12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Extension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.richardfrk.EricsMark.Extension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		01ECAFD61DBFD14600C73E12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Extension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.richardfrk.EricsMark.Extension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		015269301DBFD4C300896D69 /* Build configuration list for PBXNativeTarget "Eric's Mark Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015269311DBFD4C300896D69 /* Debug */,
+				015269321DBFD4C300896D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		01ECAFAC1DBFD11300C73E12 /* Build configuration list for PBXProject "EricsMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -434,14 +452,7 @@
 				01ECAFC01DBFD11300C73E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		01ECAFD41DBFD14600C73E12 /* Build configuration list for PBXNativeTarget "Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01ECAFD51DBFD14600C73E12 /* Debug */,
-				01ECAFD61DBFD14600C73E12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
