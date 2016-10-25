@@ -3,6 +3,11 @@ Eric's Mark
 
 This extension actually find this terms ``var``, ``IBOutlet``, ``IBAction``, ``super``, ``private func``, ``>`` and ``extension`` in your code and add ``//MARK:`` them.
 
+Demo
+----
+
+
+
 Installation
 ------------
 
@@ -16,6 +21,7 @@ Installation
 8. Run ``EricsMark.app`` and exit again.
 9. Go to System Preferences -> Extensions -> Xcode Source Editor and enable this extension.
 10. The menu-item should now be available from Xcode's Editor menu.
+11. You can set a shortcut ``Key-Binding`` for this extension.
 
 Made with S2 to Eric Brito! ^^
 ------------------------------
