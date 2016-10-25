@@ -23,5 +23,10 @@ Installation
 10. The menu-item should now be available from Xcode's Editor menu.
 11. You can set a shortcut ``Key-Binding`` for this extension.
 
-Made with S2 to Eric Brito! ^^
-------------------------------
+Todo
+----
+
+- [ ] Refactor the code.
+
+###Made with S2 to Eric Brito! ^^
+
