@@ -1,5 +1,7 @@
-# EricsMark
-XCode 8 Extension for MARKs
+Eric's Mark
+===========================
+
+This extension search
 
 Installation
 ------------
