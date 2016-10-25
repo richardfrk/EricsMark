@@ -88,14 +88,10 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
             
             invocation.buffer.lines.insert("    //MARK: - Properties", at: lineClassMark!+2)
             linePropertieMark = lineClassMark!+2
-            
-            invocation.buffer.lines.insert("    //MARK: - IBOutlets", at: lineClassMark!+3)
-            lineIBOutletMark = lineClassMark!+3
-            
-            invocation.buffer.lines.insert("", at: lineIBOutletMark!)
-            invocation.buffer.lines.insert("", at: lineIBOutletMark!)
-            
-            
+            invocation.buffer.lines.insert("", at: linePropertieMark!+1)
+            invocation.buffer.lines.insert("", at: linePropertieMark!+1)
+            invocation.buffer.lines.insert("    //MARK: - IBOutlets", at: linePropertieMark!+2)
+            lineIBOutletMark = linePropertieMark!+2
             
         }
         
