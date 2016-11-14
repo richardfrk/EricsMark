@@ -21,6 +21,25 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         var linePrivateMethodMark:Int?
         var lineExtensionMark:Int?
         
+        var bRemove  = true
+        let array = ["//MARK: - IBOutlets","//MARK: - Properties","//MARK: - Super Methods","//MARK: - Private Methods","//MARK: - Extensions","//MARK: - IBActions"]
+        while ( bRemove == true)
+        {
+            bRemove = false
+            for i in 0..<invocation.buffer.lines.count
+            {
+                let line = invocation.buffer.lines[i] as! String
+                
+                if line.contains(array[0])  || line.contains(array[1]) || line.contains(array[2]) || line.contains(array[3]) || line.contains(array[4]) || line.contains(array[5])
+                {
+                    invocation.buffer.lines.remove(i)
+                    bRemove = true
+                    break
+                }
+            }
+        }
+        
+        
         for i in 0..<invocation.buffer.lines.count {
             
             let line = invocation.buffer.lines[i] as! String
